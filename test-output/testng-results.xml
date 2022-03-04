@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="177" started-at="2022-03-02T17:20:35Z" finished-at="2022-03-02T17:20:35Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Sample2.tc13()[pri:0, instance:testPack.Sample2@6500df86]" name="tc13" class="testPack.Sample2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="177" started-at="2022-03-02T17:20:35Z" finished-at="2022-03-02T17:20:35Z">
+      <class name="testPack.Sample2">
+        <test-method status="PASS" signature="tc13()[pri:0, instance:testPack.Sample2@6500df86]" name="tc13" duration-ms="39" started-at="2022-03-02T17:20:35Z" finished-at="2022-03-02T17:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13 -->
+      </class> <!-- testPack.Sample2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
