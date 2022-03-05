@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="177" started-at="2022-03-02T17:20:35Z" finished-at="2022-03-02T17:20:35Z">
+  <suite started-at="2022-03-05T17:06:27Z" name="Default suite" finished-at="2022-03-05T17:06:52Z" duration-ms="25400">
     <groups>
-      <group name="smoke">
-        <method signature="Sample2.tc13()[pri:0, instance:testPack.Sample2@6500df86]" name="tc13" class="testPack.Sample2"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="177" started-at="2022-03-02T17:20:35Z" finished-at="2022-03-02T17:20:35Z">
-      <class name="testPack.Sample2">
-        <test-method status="PASS" signature="tc13()[pri:0, instance:testPack.Sample2@6500df86]" name="tc13" duration-ms="39" started-at="2022-03-02T17:20:35Z" finished-at="2022-03-02T17:20:35Z">
+    <test started-at="2022-03-05T17:06:27Z" name="Default test" finished-at="2022-03-05T17:06:52Z" duration-ms="25400">
+      <class name="testPack.Sample1">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testPack.Sample1@32910148]" started-at="2022-03-05T17:06:27Z" name="launch" finished-at="2022-03-05T17:06:32Z" duration-ms="5595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc13 -->
-      </class> <!-- testPack.Sample2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:testPack.Sample1@32910148]" started-at="2022-03-05T17:06:32Z" name="startTime" finished-at="2022-03-05T17:06:34Z" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="run()[pri:0, instance:testPack.Sample1@32910148]" started-at="2022-03-05T17:06:34Z" name="run" finished-at="2022-03-05T17:06:52Z" duration-ms="18412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="endTime()[pri:0, instance:testPack.Sample1@32910148]" started-at="2022-03-05T17:06:52Z" name="endTime" finished-at="2022-03-05T17:06:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testPack.Sample1@32910148]" started-at="2022-03-05T17:06:52Z" name="close" finished-at="2022-03-05T17:06:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testPack.Sample1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
